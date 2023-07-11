@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.looping_and_branching.level02.hard;
 
+import java.util.Scanner;
+
 public class Application3 {
     public static void main(String[] args) {
         /* 문자열을 하나 입력 받고, 검색할 문자를 입력 하여
@@ -28,5 +30,36 @@ public class Application3 {
          * -- 출력 예시 --
          * 영문자가 아닌 문자가 포함되어 있습니다.
          * */
+
+        Scanner sc = new Scanner(System.in);
+
+
+        System.out.println("문자열 입력 : ");
+        String str = sc.nextLine();
+
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (!Character.isLetter(c)) {
+                System.out.println("영문자가 아닌 문자가 포함되어 있습니다. ");
+                return;
+            }
+        }
+
+
+            System.out.println("검색할 문자를 입력하세요 : ");
+            String str2 = sc.nextLine();
+
+            int count = str.length() - str.replace(str2, "").length();
+
+            if (count >= 0) {
+                System.out.println("포함된 갯수 : " + count);
+            }
+
+        }
+
+
+
     }
-}
+
+
+

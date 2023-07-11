@@ -25,15 +25,15 @@ public class Application1 {
         int num = 0;
 
 
-        if (num < 2) {
+        if (num <= 2) {
             do {
                 System.out.print("2보다 큰 정수를 하나 입력하세요 : ");
                 num = sc.nextInt();
-                if (num < 2) {
+                if (num <= 2) {
                     System.out.println("잘못 입력하셨습니다. 다시 입력하세요.");
                 }
 
-            } while (2 > num);
+            } while (2 >= num);
 
 
             // i : num에 나눌 값, for문을 한 바퀴 돌 때마다 1씩 증가한다.
