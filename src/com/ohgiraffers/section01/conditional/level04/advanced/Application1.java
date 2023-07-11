@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.conditional.level04.advanced;
 
+import java.util.Scanner;
+
 public class Application1 {
 
     public static void main(String[] args) {
@@ -20,6 +22,33 @@ public class Application1 {
          * 수학 점수 미달로 불합격입니다.
          * */
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("국어 점수를 입력하세요 : ");
+        int korean = sc.nextInt();
+        System.out.print("영어 점수를 입력하세요 : ");
+        int eng = sc.nextInt();
+        System.out.print("수학 점수를 입력하세요 : ");
+        int math = sc.nextInt();
+
+        int sum = (korean + eng + math)/3;
+
+        if (sum >= 60 && korean >=40 && eng >=40 && math >=40 ) {
+            System.out.println("합격입니다!");
+        } else {
+            if(sum < 60) {
+                System.out.println("평균점수 미달로 불합격 입니다. ");
+            }	if(korean < 40) {
+                System.out.println("국어점수 미달로 불합격 입니다.");
+            }
+
+            if(eng < 40) {
+                System.out.println("영어점수 미달로 불합격 입니다");
+            }
+
+            if(math < 40) {
+                System.out.println("수학점수 미달로 불합격 입니다");
+            }
+        }
 
     }
 }
