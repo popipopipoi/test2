@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e856d95-cdd4-45aa-b20a-fb3a25a1726a" name="변경" comment="updated2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/Application1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/A4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/A4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/Application2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ohgiraffers/section02/looping_and_branching/level02/hard/Application3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/lecture/1_java/1_lecture-source/chap02-operator-lecture-source"
+    "last_opened_file_path": "C:/lecture/1_java/1_lecture-source/control-test"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689070213804</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated2">
+      <option name="closed" value="true" />
+      <created>1689073290906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689073290906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

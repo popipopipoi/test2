@@ -29,13 +29,12 @@ public class Application2 {
 
         Random random = new Random();
         int ran = (int) (Math.random() * 100) + 1;
-        int num;
         int count = 0;
 
 
         while (true) {
             System.out.print("정수를 입력하세요 : ");
-            num = sc.nextInt();
+             int num = sc.nextInt();
             count++;
 
             if (num > ran) {
